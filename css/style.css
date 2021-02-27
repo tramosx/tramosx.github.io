@@ -20,9 +20,11 @@
     height: 700px;
     width: 100%;
     background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
     background-position: center;
-    background-repeat: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 
 }
 
@@ -30,14 +32,13 @@
     font-size: 26px;
     font-weight: bold;
     color: whitesmoke;
-    margin-top: 150px;
 }
 
 .header .interno{
     font-size: 94px;
     font-weight: bold;
     color: whitesmoke;
-    margin-top: 235px;
+    /* text-align: center; */
 }
 
 @media (max-width: 600px){
@@ -48,4 +49,57 @@
     .header .interno {
         font-size: 2.5em;
     }
+
+    img {
+        margin:0 auto;
+    }
 }
+
+.video-responsive{
+    overflow:hidden;
+    /* margin:200px; */
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:70%;
+    width:70%;
+    position:absolute;
+    margin-left: 50vw;
+    transform: translate(-50%);
+}
+
+/* Container Youtube */
+
+.videos-youtube{
+    height: 492px;
+    background-image: url("../img/imagem3_a.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.vc_custom{
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    height: 492px;
+    /* width: 600px; */
+}
+
+.logo-youtube{
+    background-image: url("../img/youtube-alpha80.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    width:200px;
+    height:45px;
+}
+
+/* .coluna2 {
+    width: 34%;
+} */
