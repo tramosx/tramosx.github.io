@@ -95,7 +95,7 @@
     background-image: url("../img/youtube-alpha80.png");
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     width:200px;
     height:45px;
 }
