@@ -19,7 +19,7 @@
 .header {
     height: 700px;
     width: 100%;
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/ibrp2.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,13 +31,13 @@
 .header h1{
     font-size: 26px;
     font-weight: bold;
-    color: whitesmoke;
+    color: rgb(234,234,234);
 }
 
 .header .interno{
     font-size: 94px;
     font-weight: bold;
-    color: whitesmoke;
+    color: rgb(234,234,234);
     /* text-align: center; */
 }
 
